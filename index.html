@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Per Month Money Distribution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">My Per Month Money Distribution</h1>
+    <section class="section">
+        <div class="images"><img src="images/mina.jfif" alt=""></div>
+        <div class="money-calculation">
+            <h3>Income</h3><br>
+            <label for="Income">Income:</label><input id="income-input" class="income" type="text"><br>
+            <h3>Expenses</h3><br>
+            <label for="Food">Food:</label><input id="food-input" class="food" type="text"><br><br>
+            <label for="Rent">Rent:</label><input id="rent-input" class="rent" type="text"><br><br>
+            <label for="Clothes">Clothes:</label><input id="clothes-input" class="clothes" type="text"><br><br><br>
+            <button id="calculate-button" class="button">Calculate</button><br><br><br>
+            <h3>Total Expenses:<span id="total-expenses">00</span></h3>
+            <h3>Balance:<span id="balance-total">00</span></h3><br><br>
+                <div class="saved">
+                    <div><label for="Save">Save:</label><input id="save-input" class="field" type="text"></div>
+                    <div>%</div>
+                    <div><button id="save-button" class="button2">Save</button></div>
+                </div>
+                <h3>Saving Amount:<span id="saving-amount">00</span></h3>
+                <h3>Remaining Balance:<span id="remaining-balance">00</span></h3>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

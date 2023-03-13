@@ -1,0 +1,59 @@
+
+body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header{
+    color: tomato;
+    font-size: 2rem;
+    text-align: center;
+}
+.section{
+    display: flex;
+}
+.images{
+    width: 50%;
+    margin: 30px;
+}
+.money-calculation{
+    width: 50%;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+.field, .rent, .income, .clothes{
+    margin: 5px;
+    background-color: rgb(247, 241, 241) ;
+}
+.button, .button2{
+    padding: 10px 35px;
+    background-color: springgreen;
+    color: white;
+    border-radius: 8px;
+}
+.saved{
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive for mobile */
+@media only screen and (max-width: 600px) {
+    .header{
+        width: 100%;
+    }
+    .section{
+        flex-direction: column;
+    }
+    .images{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .images img{
+       max-width: 100%;
+    }
+    .money-calculation{
+        width: 100%;
+    }
+}
